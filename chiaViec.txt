@@ -1,0 +1,11 @@
+Giới thiệu chung về kiểm định
+Lý thuyết về Anova và kiểm định Ki bình phương
+Code + biểu đồ + một số đánh giá.
+	....
+	-tính trung bình - trung vị
+	-------
+	- Cột chính của mình là cnt
+	- Kiểm tra từng cột có ảnh hưởng không, sẽ dùng Ki-bình phương
+	- Kiểm tra số liệu theo ngày trong tuần / theo tháng/ theo mùa / theo năm / theo ngày đi làm và ngày nghỉ.
+	-------
+Kết luận chung: qua btl rút ra được điều gì, v.v.v
