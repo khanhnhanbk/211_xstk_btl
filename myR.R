@@ -92,12 +92,12 @@ plot(TukeyHSD(av), ordered = T,col="blue")
 
 # holiday : weather day is holiday or not 
 
-oneway_test(cnt ~ as.factor(holiday), distribution=approximate(B=10000))
+print(oneway_test(cnt ~ as.factor(holiday), distribution=approximate(B=10000)))
 print(describe.by(cnt, as.factor(holiday), skew=F))
 boxplot(cnt ~ as.factor(holiday), col="blue",  main = "Thong ke CNT theo ngay nghi", xlab = "1: ngay nghi.", ylab = "CNT")
 
 # working day
 
-oneway_test(cnt ~ as.factor(workingday), distribution=approximate(B=10000))
+print(oneway_test(cnt ~ as.factor(workingday), distribution=approximate(B=10000)))
 print(describe.by(cnt, as.factor(workingday), skew=F))
 boxplot(cnt ~ as.factor(workingday), col="blue",   main = "Thong ke CNT theo lam viec", xlab = "0: ngay lam viec", ylab = "CNT")
